@@ -1,9 +1,14 @@
 # Krushimitra
 
+[](https://wallpaperscraft.com/image/cereals_agriculture_ear_4939_1920x1080.jpg)
+
 The current situation for farmers in India is a heart wrenching story. The very people who feed the nation are faced with starvation, and even a killer shortage of water. So as the engineers of India we consider it as our responsibility to contribute for solving these problems by providing a technological solution. So here's our idea about managing the water supplied to the crops by means of drip irrigation. 
 
-The data which will be taken as an input for our system will be the moisture content, location of the space(rainfall at the particular area), type of crop, type of soil and the temperature of surrounding. By manipulating this data we will control the irrigation by basically controlling the time and if possible the flow of water pump.
-
-For building the control system we will use an arduino and soil moisture sensors(which are easily available). The water pump which we wiall be using will be the one which is used in aquariums, fish ponds. Also a control panel will be made available to the user to select the type crop and the soil he is using which will further affect the flow of water.  
-
-
+Now to control any system we need to analyse its parameters whose values will basically serve as an input for our system. 
+Considering our system the parameters were present soil moisture, temperature of the soil, the crop which is being cultivated, the plant growth stage and the type of soil. 
+Out of these the crop selection, the plant growth stage and soil type will be decided by the farmer. An user friendly GUI will be provided to the farmer for selecting this parameters. 
+Technology comes to our help in getting the values of the remaining parameters which are thee soil moisture and temperature. 
+For detecting the moisture we have used a sensor which on calculating resistance measures the conductivity of the soil and relates it with the water content. For detecting the temperature of the soil we have used the readily available temperature sensor LM35.     
+After having our input the microcontroller does its job by giving a output after considering all the factors.The output of the microcontroller decides the time for which the water pump will run which in turns imply that we have controlled the water supply to the crops. 
+We also have installed a warning mechanism which gives an alarm when the water level in the soil is out of the limits(wielding point and field capacity). 
+  
