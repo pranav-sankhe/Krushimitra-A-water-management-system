@@ -137,7 +137,7 @@ class Krishi(BoxLayout):
 	def show_crop_type(self):
 		crop_type=SelectableGrid(cols=1, up_count=5, multiselect=True,
 								scroll_count=1,touch_multiselect=True)
-		crop_type_options=['a','b','c','d','e']
+		crop_type_options=['rice','wheat','potato','tomato','maize']
 		for index in range(len(self.crop_type_options)):
 			btn = Button(text=crop_type_options[index], size_hint_y=None, height=44)
 			btn.bind(on_touch_down=crop_type.do_touch)
