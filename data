@@ -1,0 +1,17 @@
+crop details
+
+		KC(in)	KC(mid)	 		KC(end)   
+rice 	 1.05     1.20   		0.90-0.60 	
+wheat     0.3     1.15   		0.25 -0.4 
+maize     0.3     1.20   		0.60-0.35
+Cotton    0.35    1.15-1.20 	0.70-0.50
+beans     0.5      1.05         0.90 
+
+ETo = p (0.46Tmean +8)
+Tmean by temp sensor
+p = 38%
+
+ETc = ETo x Kc 
+
+
+		 	  
