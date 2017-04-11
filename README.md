@@ -17,3 +17,6 @@ For detecting the moisture we have used a sensor which on calculating resistance
 After having our input the microcontroller does its job by giving a output after considering all the factors.The output of the microcontroller decides the time for which the water pump will run which in turns imply that we have controlled the water supply to the crops.
 
 We also have installed a warning mechanism which gives an alarm when the water level in the soil is out of the limits(wielding point and field capacity).
+
+link to folder containing pics and videos of our system  [link](https://drive.google.com/open?id=0BxvO_16YMobyTjQxYV9RQnl3RG8)
+
